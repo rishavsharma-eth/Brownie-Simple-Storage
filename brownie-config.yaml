@@ -1,0 +1,5 @@
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
+  # In config file when we write something between a ${}, the brownie will automatically
+  # look for the value inside the braces in the .env file
